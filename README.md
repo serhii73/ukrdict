@@ -5,7 +5,7 @@ Python wrapper for [sum.in.ua/api](http://sum.in.ua/api)
 
 ##### Search for the word meaning
 ```bash
-ukrdict тин 
+ukrdict тин
 ```
 ```
 ТИН, у, чол. Огорожа, сплетена з лози, тонкого гілля
