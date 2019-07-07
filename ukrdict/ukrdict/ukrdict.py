@@ -20,12 +20,15 @@ def find_word(word: str) -> str:
     req = requests.get(f'{DICT_URL}{word}')
     soup = BeautifulSoup(req.text, 'lxml')
 
-    try:
-        index_close_p = str(soup.find(itemprop='articleBody')).index('</p>')
-        before_close_p = str(soup.find(itemprop='articleBody'))[:index_close_p]
-        after_close_p = str(soup.find(itemprop='articleBody'))[index_close_p:]
-        extract_soup = before_close_p + '\n' + after_close_p
-        extract_text = BeautifulSoup(extract_soup, 'html.parser').text.strip()
-    except ValueError:
+    article_body = soup.find(itemprop='articleBody')
+
+    if not article_body:
         raise WordNotFound(f'Sorry, requested word not found.')
-    return extract_text
+
+    content = article_body.contents
+
+    extracted_text = ''
+    for tag in content:
+        extracted_text += tag.text + '\n' if tag.find(itemprop='headline') else tag.text
+
+    return extracted_text
