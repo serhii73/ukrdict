@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 
 class WordNotFound(Exception):
-    pass
+    """Exception class for ukrdict project."""
 
 
 def find_word(word: str) -> str:
@@ -16,16 +16,19 @@ def find_word(word: str) -> str:
     :return: word meaning or raises exception if the word not found.
     """
 
-    DICT_URL = 'http://sum.in.ua/?swrd='
-    req = requests.get(f'{DICT_URL}{word}')
-    soup = BeautifulSoup(req.text, 'lxml')
+    DICT_URL = "http://sum.in.ua/?swrd="
+    req = requests.get(f"{DICT_URL}{word}")
+    soup = BeautifulSoup(req.text, "lxml")
 
-    try:
-        index_close_p = str(soup.find(itemprop='articleBody')).index('</p>')
-        before_close_p = str(soup.find(itemprop='articleBody'))[:index_close_p]
-        after_close_p = str(soup.find(itemprop='articleBody'))[index_close_p:]
-        extract_soup = before_close_p + '\n' + after_close_p
-        extract_text = BeautifulSoup(extract_soup, 'html.parser').text.strip()
-    except ValueError:
-        raise WordNotFound(f'Sorry, requested word not found.')
-    return extract_text
+    article_body = soup.find(itemprop="articleBody")
+
+    if not article_body:
+        raise WordNotFound(f"Sorry, requested word not found.")
+
+    content = article_body.contents
+
+    extracted_text = ""
+    for tag in content:
+        extracted_text += tag.text + "\n" if tag.find(itemprop="headline") else tag.text
+
+    return extracted_text
