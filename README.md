@@ -15,9 +15,9 @@ ukrdict тин
 
 ##### Installation
 1. Clone the repository
-2. Create Python virtual environment and install ukrdict package
+2. [Create Python virtual environment and install ukrdict package](https://docs.python.org/3.7/library/venv.html)
+3. Install package
 ```bash
 cd sum_in_ua
-python -m venv myenv && source myenv/bin/activate
 python ukrdict/setup.py install
 ```
