@@ -29,7 +29,6 @@ def find_word(word: str) -> str:
 
     extracted_text = ""
     for tag in content:
-        extracted_text += \
-            tag.text + "\n" if tag.find(itemprop="headline") else tag.text
+        extracted_text += tag.text + "\n" if tag.find(itemprop="headline") else tag.text
 
     return extracted_text
