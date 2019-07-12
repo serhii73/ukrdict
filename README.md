@@ -18,7 +18,7 @@ ukrdict тин
 1. Clone the repository
 2. [Create Python virtual environment](https://docs.python.org/3.7/library/venv.html)
 ```bash
-cd python_sum_in_ua
+cd ukrdict
 ```
 3. Install ukrdict package
 ```bash
