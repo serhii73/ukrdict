@@ -19,3 +19,12 @@
   - id: name-tests-test
   - id: requirements-txt-fixer
   - id: trailing-whitespace
+
+- repo: local
+  hooks:
+  - id: pylint
+    language: system
+    name: PyLint
+    files: \.py$
+    entry: python3 -m pylint.__main__
+    args: []
