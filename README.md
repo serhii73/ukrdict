@@ -1,5 +1,14 @@
-[![Build Status](https://travis-ci.org/serhii73/python_sum_in_ua_api.svg?branch=master)](https://travis-ci.org/serhii73/python_sum_in_ua_api)
-[![Maintainability](https://api.codeclimate.com/v1/badges/7e4c013e451878dc5f64/maintainability)](https://codeclimate.com/github/serhii73/python_sum_in_ua_api/maintainability)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/serhii73/ukrdict/graphs/commit-activity)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![made-with-python](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
+[![GitHub contributors](https://img.shields.io/github/contributors/serhii73/ukrdict.svg)](https://GitHub.com/serhii73/ukrdict/graphs/contributors/)
+[![GitHub stars](https://img.shields.io/github/stars/serhii73/ukrdict.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/serhii73/ukrdict/stargazers/)
+![GitHub forks](https://img.shields.io/github/forks/serhii73/ukrdict.svg?style=social)
+[![GitHub issues](https://img.shields.io/github/issues/serhii73/ukrdict.svg)](https://GitHub.com/serhii73/ukrdict/issues/)
+[![Build Status](https://travis-ci.org/serhii73/ukrdict.svg?branch=master)](https://travis-ci.org/serhii73/ukrdict)
+[![Maintainability](https://api.codeclimate.com/v1/badges/18c3e844245a2585f912/maintainability)](https://codeclimate.com/github/serhii73/ukrdict/maintainability)
+[![BCH compliance](https://bettercodehub.com/edge/badge/serhii73/ukrdict?branch=master)](https://bettercodehub.com/)
+
 
 # ukrdict
 Python wrapper for [sum.in.ua/api](http://sum.in.ua/api)
