@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/007ff2464e874948add4154dc0f97e35)](https://app.codacy.com/app/serhii73/ukrdict?utm_source=github.com&utm_medium=referral&utm_content=serhii73/ukrdict&utm_campaign=Badge_Grade_Settings)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/serhii73/ukrdict/graphs/commit-activity)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![made-with-python](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
