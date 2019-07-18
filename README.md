@@ -1,4 +1,3 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/007ff2464e874948add4154dc0f97e35)](https://app.codacy.com/app/serhii73/ukrdict?utm_source=github.com&utm_medium=referral&utm_content=serhii73/ukrdict&utm_campaign=Badge_Grade_Settings)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/serhii73/ukrdict/graphs/commit-activity)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![made-with-python](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
@@ -11,6 +10,9 @@
 [![BCH compliance](https://bettercodehub.com/edge/badge/serhii73/ukrdict?branch=master)](https://bettercodehub.com/)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/serhii73/ukrdict.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/serhii73/ukrdict/alerts/)
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/serhii73/ukrdict.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/serhii73/ukrdict/context:python)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/007ff2464e874948add4154dc0f97e35)](https://app.codacy.com/app/serhii73/ukrdict?utm_source=github.com&utm_medium=referral&utm_content=serhii73/ukrdict&utm_campaign=Badge_Grade_Settings)
+[![Python 3](https://pyup.io/repos/github/serhii73/ukrdict/python-3-shield.svg)](https://pyup.io/repos/github/serhii73/ukrdict/)
+[![Updates](https://pyup.io/repos/github/serhii73/ukrdict/shield.svg)](https://pyup.io/repos/github/serhii73/ukrdict/)
 
 # ukrdict
 Python wrapper for [sum.in.ua/api](http://sum.in.ua/api)
