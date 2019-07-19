@@ -35,6 +35,6 @@ cd ukrdict
 ```
 3. Install ukrdict package
 ```bash
-setup.py install
+python setup.py install
 ukrdict жовтогарячий
 ```
