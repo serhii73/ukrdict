@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """Distribution setup module."""
 
-__requires__ = ("setuptools >=40.0",)
+__requires__ = ("setuptools >=39.0",)
 # The list of pre-requisite requirements, needed to run this module
 
 from setuptools import setup
