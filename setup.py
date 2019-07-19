@@ -1,5 +1,0 @@
-# -*- coding: utf-8 -*-
-
-from setuptools import setup
-
-setup(entry_points={"console_scripts": ["ukrdict = ukrdict.main:main"]})
