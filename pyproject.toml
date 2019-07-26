@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "ukrdict"
+version = "0.1.0"
+description = "CLI tool for looking up Ukrainian words meaning."
+authors = ["serhii73 <aserhii@protonmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+beautifulsoup4 = "4.7.1"
+click = "7.0"
+lxml = "4.3.4"
+requests = "2.22.0"
+
+[tool.poetry.dev-dependencies]
+beautifulsoup4 = "4.7.1"
+click = "7.0"
+lxml = "4.3.4"
+pre-commit = "1.17.0"
+requests = "2.22.0"
+
+[tool.poetry.scripts]
+ukrdict = "ukrdict.__main__:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
