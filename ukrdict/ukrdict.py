@@ -23,7 +23,7 @@ def find_word(word: str) -> str:
     article_body = soup.find(itemprop="articleBody")
 
     if not article_body:
-        raise WordNotFound(f"Sorry, requested word not found.")
+        raise WordNotFound(f"Sorry, requested {word} not found.")
 
     content = article_body.contents
 
