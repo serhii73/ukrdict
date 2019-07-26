@@ -9,8 +9,6 @@ script: pre-commit run --all-files
 jobs:
   include:
   - python: 3.7
-    dist: xenial
-    sudo: true
 
   - stage: &stage_deploy_name upload new version of python package to PYPI (only for tagged commits)
     name: Deploy
