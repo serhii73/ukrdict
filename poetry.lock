@@ -15,7 +15,7 @@ description = "Screen-scraping library"
 name = "beautifulsoup4"
 optional = false
 python-versions = "*"
-version = "4.7.1"
+version = "4.8.0"
 
 [package.dependencies]
 soupsieve = ">=1.2"
@@ -122,7 +122,7 @@ category = "dev"
 description = "YAML parser and emitter for Python"
 name = "pyyaml"
 optional = false
-python-versions = "*"
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 version = "5.1.1"
 
 [[package]]
@@ -188,12 +188,12 @@ python-versions = ">=2.7"
 version = "0.5.2"
 
 [metadata]
-content-hash = "d7c15af7ec3b1c1493f9776a851e848c4f37267a286e4a81a03d88df91701b38"
+content-hash = "8f1938755e5094a1a369abdbddf186dc8389912ffe12b5007d11834a38bede9b"
 python-versions = "^3.7"
 
 [metadata.hashes]
 "aspy.yaml" = ["463372c043f70160a9ec950c3f1e4c3a82db5fca01d334b6bc89c7164d744bdc", "e7c742382eff2caed61f87a39d13f99109088e5e93f04d76eb8d4b28aa143f45"]
-beautifulsoup4 = ["034740f6cb549b4e932ae1ab975581e6103ac8f942200a0e9759065984391858", "945065979fb8529dd2f37dbb58f00b661bdbcbebf954f93b32fdf5263ef35348", "ba6d5c59906a85ac23dadfe5c88deaf3e179ef565f4898671253e50a78680718"]
+beautifulsoup4 = ["05668158c7b85b791c5abde53e50265e16f98ad601c402ba44d70f96c4159612", "25288c9e176f354bf277c0a10aa96c782a6a18a17122dba2e8cec4a97e03343b", "f040590be10520f2ea4c2ae8c3dae441c7cfff5308ec9d58a0ec0c1b8f81d469"]
 certifi = ["046832c04d4e752f37383b628bc601a7ea7211496b4638f6514d0e5b9acc4939", "945e3ba63a0b9f577b1395204e13c3a231f9bc0223888be653286534e5873695"]
 cfgv = ["32edbe09de6f4521224b87822103a8c16a614d31a894735f7a5b3bcf0eb3c37e", "3bd31385cd2bebddbba8012200aaf15aa208539f1b33973759b4d02fc2148da5"]
 chardet = ["84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae", "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"]
