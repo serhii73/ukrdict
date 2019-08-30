@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import click
 
 from .ukrdict import find_word
