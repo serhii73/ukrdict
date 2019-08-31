@@ -13,7 +13,6 @@
   - id: end-of-file-fixer
   - id: file-contents-sorter
     files: .gitignore
-  - id: fix-encoding-pragma
   - id: flake8
     args: ["--max-line-length=88"]
   - id: name-tests-test
