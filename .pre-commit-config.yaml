@@ -24,3 +24,13 @@
   rev: v0.711
   hooks:
   - id: mypy
+
+-   repo: https://github.com/asottile/reorder_python_imports
+    rev: v1.7.0
+    hooks:
+    -   id: reorder-python-imports
+
+-   repo: https://github.com/asottile/add-trailing-comma
+    rev: v1.4.1
+    hooks:
+    -   id: add-trailing-comma
