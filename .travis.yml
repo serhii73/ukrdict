@@ -7,4 +7,5 @@ before_install:
 - pip install poetry
 - poetry install
 - pip install reorder-python-imports
+- pip install add-trailing-comma
 script: pre-commit run --all-files
