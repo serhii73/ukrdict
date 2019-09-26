@@ -7,3 +7,5 @@ before_install:
 - pip install poetry
 - poetry install
 script: pre-commit run --all-files
+notifications:
+    webhooks: https://www.travisbuddy.com/
