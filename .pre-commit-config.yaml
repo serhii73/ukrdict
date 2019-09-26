@@ -24,3 +24,8 @@
   rev: v0.711
   hooks:
   - id: mypy
+
+-   repo: https://github.com/asottile/reorder_python_imports
+    rev: v1.7.0
+    hooks:
+    -   id: reorder-python-imports
