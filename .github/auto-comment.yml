@@ -1,0 +1,11 @@
+issuesOpened: >
+  Thank your for raising an issue. Please, make sure that you've provided as much context as possible.
+
+issuesClosed: >
+  The issue has been closed. Thank you for the contribution.
+
+pullRequestOpened: >
+  Thank your for submitting the pull request. It will be reviewed as soon as possible.
+
+pullRequestClosed: >
+  PR has been closed. Thank you for the contribution.
