@@ -37,4 +37,8 @@ def get_alternatives(bs: BeautifulSoup) -> Optional[str]:
 
 def find_word(word: str) -> str:
     cont = get_page_content(word)
-    return get_word(cont) or get_alternatives(cont) or f"Слова «{word}» не знайдено"
+    return (
+        get_word(cont)
+        or get_alternatives(cont)
+        or f"Слова «{word}» не знайдено"
+    )
