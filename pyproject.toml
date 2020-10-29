@@ -20,13 +20,13 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.7"
-beautifulsoup4 = "4.8.2"
+beautifulsoup4 = "4.9.3"
 click = "7.0"
 lxml = "4.4.2"
 requests = "2.22.0"
 
 [tool.poetry.dev-dependencies]
-beautifulsoup4 = "4.8.2"
+beautifulsoup4 = "4.9.3"
 click = "7.0"
 lxml = "4.4.2"
 pre-commit = "1.21.0"
