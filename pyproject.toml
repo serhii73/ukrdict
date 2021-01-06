@@ -23,14 +23,14 @@ python = "^3.7"
 beautifulsoup4 = "4.8.2"
 click = "7.0"
 lxml = "4.4.2"
-requests = "2.22.0"
+requests = "2.25.1"
 
 [tool.poetry.dev-dependencies]
 beautifulsoup4 = "4.8.2"
 click = "7.0"
 lxml = "4.4.2"
 pre-commit = "1.21.0"
-requests = "2.22.0"
+requests = "2.25.1"
 
 [tool.poetry.scripts]
 ukrdict = "ukrdict.__main__:main"
